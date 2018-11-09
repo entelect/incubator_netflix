@@ -9,6 +9,7 @@
     <modules>
         <module>sequences-msrv</module>
         <module>math-msrv</module>
+        <module>config-server</module>
     </modules>
     <packaging>pom</packaging>
     <name>speak-msrv</name>
