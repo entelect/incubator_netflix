@@ -21,12 +21,6 @@ public class FeignConfiguration {
     @Value("${client.sequences.name}")
     private String sequencesClientName;
 
-
-    @Bean
-    public Client feignClient() {
-        return new Client.Default(null, null);
-    }
-
     @Bean
     public SequencesClient sampleClient(Client feignClient, ObjectMapper objectMapper) {
         return Feign.builder()

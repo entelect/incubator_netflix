@@ -10,6 +10,7 @@
         <module>sequences-msrv</module>
         <module>math-msrv</module>
         <module>config-server</module>
+        <module>service-discovery</module>
     </modules>
     <packaging>pom</packaging>
     <name>speak-msrv</name>
