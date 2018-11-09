@@ -11,6 +11,7 @@
         <module>math-msrv</module>
         <module>config-server</module>
         <module>service-discovery</module>
+        <module>zuul-proxy</module>
     </modules>
     <packaging>pom</packaging>
     <name>speak-msrv</name>

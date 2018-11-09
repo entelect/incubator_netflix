@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: zuul-proxy-msrv
+  cloud:
+    config:
+      uri: http://localhost:8888
+management.security.enabled: false

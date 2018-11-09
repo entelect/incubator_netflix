@@ -1,0 +1,8 @@
+spring.application.name: zuul-proxy-msrv
+server:
+  port: 8083
+zuul:
+  prefix: /api
+  routes:
+    math-msrv:
+        path: /math-msrv/**
